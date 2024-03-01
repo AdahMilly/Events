@@ -3,11 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Events</title>
+    <title>Events Ticketing</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>Content goes here</h1>
+    <div class="events-container">
+      <div class="header">
+        <h1>Events</h1>
+        <ion-icon size="large" name="arrow-dropright"></ion-icon>
+        <h2>Albania Kizomba Festival</h2>
+      </div>
+      <div class="events">
+        <h3>Upcoming Events</h3>
+        <div class="event-card">
+          <img src="./images/event.jpg" alt="Albania Kizomba Festival" />
+          <div class="event-details">
+            <div class="sect">
+              <div class="desc">
+                <h4>Albania Kizomba Festival</h4>
+                <p>Grand Blue Fafa Resort</p>
+                <h6>8 May 2024 22:00</h6>
+              </div>
+              <div class="pricing">
+                <button>€5,759.35</button>
+              </div>
+            </div>
+            <div class="event-nums">
+              <div class="part1">
+                <ion-icon size="large" name="analytics"></ion-icon
+                ><span>276 Tickets</span>
+              </div>
+              <div class="part2">
+                <ion-icon size="large" name="contacts"></ion-icon
+                ><span>29 Guests</span>
+              </div>
+              <div class="part3">
+                <ion-icon size="large" name="home"></ion-icon
+                ><span>112 Hotel Rooms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>
