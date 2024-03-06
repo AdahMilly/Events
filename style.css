@@ -1,13 +1,22 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: rgb(27, 27, 27);
 }
 
 .events-container {
   max-width: 800px;
-  margin: 0 auto;
+  height: 90vh;
+  background-image: linear-gradient(
+    to top,
+    rgb(48, 47, 47),
+    rgb(59, 57, 59),
+    rgb(59, 56, 56),
+    rgb(48, 47, 47),
+    rgb(29, 28, 28),
+    rgb(70, 68, 68)
+  );
+  margin: auto;
   padding: 20px;
-  background-color: #636666;
 }
 
 .header {
@@ -26,34 +35,33 @@ body {
   font-size: 30px;
 }
 .events {
-  background-color: #2d2e2e;
   padding: 10px;
 }
 .events h3 {
   color: white;
+  margin-bottom: 100px;
   font-size: 30px;
 }
 .event-card {
+  border: 2px solid rgba(255, 255, 255, 0.692);
   border-radius: 20px;
   height: 50vh;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
 }
 .event-card img {
   width: 100%;
   border-radius: 10px 10px 0 0;
-  height: 50%;
+  height: 40%;
 }
 
 .event-details {
   padding: 20px;
-  background-color: #636666;
   border-radius: 0 0 10px 10px;
 }
 .sect {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -74,17 +82,19 @@ body {
   font-size: 20px;
 }
 .pricing button {
-  padding: 20px;
+  padding: 15px 32px;
   color: white;
   background-color: #3a959c;
-  border-radius: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
 }
 .event-nums {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
-
 .event-nums span {
   margin-right: 10px;
 }
